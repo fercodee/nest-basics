@@ -11,10 +11,10 @@ import { PrismaMembersRepository } from './repositories/prisma/prisma-members-re
     PrismaService,
     {
       provide: MembersRepository,
-      useClass: PrismaMembersRepository
-    }
+      useClass: PrismaMembersRepository,
+    },
   ],
 })
-export class AppModule { }
+export class AppModule {}
 
 // ? When class membersRepository will called, use prismaMembersRepository

@@ -9,8 +9,10 @@ $ yarn add class-validator (obs: add in main: "app.useGlobalPipes(new Validation
 $ yarn add class-transformer
 
 # Prisma
-$ yarn add install prisma -D
+$ yarn add prisma --dev
 $ yarn add prisma init --datasource-provider SQLite
 $ yarn add prisma migrate dev (obs: example "Create members table")
 $ yarn add @prisma/client (obs: cli prisma)
 $ npx prisma studio
+
+Obs: Provider "Postgres" is invalid or not supported. Try again with "postgresql", "mysql", "sqlite", "sqlserver", "mongodb" or "cockroachdb".
