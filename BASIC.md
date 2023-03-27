@@ -16,3 +16,6 @@ $ yarn add @prisma/client (obs: cli prisma)
 $ npx prisma studio
 
 Obs: Provider "Postgres" is invalid or not supported. Try again with "postgresql", "mysql", "sqlite", "sqlserver", "mongodb" or "cockroachdb".
+
+Example for url connection in .env file:
+- DATABASE_URL="postgresql://johndoe:randompassword@localhost:5432/mydb?schema=public"
